@@ -1,16 +1,31 @@
-## Hi there 👋
+## Hello 👋
 
-<!--
-**RocketPropellant-1/RocketPropellant-1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm Maciej aka kerolox!
 
-Here are some ideas to get you started:
+**Senior Full Stack Engineer with 16+ years of experience architecting cloud-native platforms and scaling distributed systems.**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```ts
+class SoftwareEngineer {
+  readonly name = "Maciej";
+  readonly alias = "kerolox";
+  readonly role = "Senior Full Stack Engineer";
+  readonly location = "Berlin, Germany";
+  readonly experience = "16+ years";
+  readonly pronouns = "vi/vim";
+
+  hello(): string {
+    return "if, as a child, you hug a massive loudspeaker so you can feel the thump of its bass, you can assume that your fate has already been written";
+  }
+}
+
+const me = new SoftwareEngineer();
+console.log(me.hello());
+```
+
+## About me
+
+- `kerolox` is kerosene + liquid oxygen; 
+- `RocketPropellant-1` nods to [RP-1](https://en.wikipedia.org/wiki/RP-1);
+- Space Nerd;
+- Vinyl Collector;
+- Pure sound addict, it's all about 20Hz - 250Hz;
