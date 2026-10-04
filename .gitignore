@@ -1,0 +1,6 @@
+# Keep this profile repository limited to its public profile assets.
+*
+!.gitignore
+!README.md
+!assets/
+!assets/kerosene.svg

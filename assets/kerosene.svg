@@ -1,0 +1,134 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 760 210"
+  preserveAspectRatio="xMinYMid meet"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Kerosene hydrocarbon structure</title>
+  <desc id="desc">
+    Representative kerosene hydrocarbon chain rendered using a Synthwave terminal color palette.
+  </desc>
+
+  <style>
+    text {
+      font-family:
+        "SFMono-Regular",
+        "Cascadia Code",
+        "JetBrains Mono",
+        "Fira Code",
+        Menlo,
+        Monaco,
+        Consolas,
+        monospace;
+      font-size: 20px;
+    }
+
+    .carbon {
+      fill: #36F9F6;
+    }
+
+    .hydrogen {
+      fill: #B893CE;
+    }
+
+    .formula {
+      fill: #FF7EDB;
+    }
+
+    .accent {
+      fill: #72F1B8;
+    }
+
+    .detail {
+      fill: #FEDE5D;
+    }
+
+    .bond {
+      stroke: #36F9F6;
+      stroke-width: 2;
+      stroke-linecap: round;
+    }
+  </style>
+
+  <!-- Top hydrogens -->
+
+  <g class="hydrogen">
+    <text x="175" y="38">H</text>
+    <text x="245" y="38">H</text>
+    <text x="315" y="38">H</text>
+    <text x="385" y="38">H</text>
+    <text x="455" y="38">H</text>
+    <text x="525" y="38">H</text>
+  </g>
+
+  <!-- Main hydrocarbon chain -->
+
+  <text class="formula" x="45" y="100">H₃C</text>
+
+  <g class="carbon">
+    <text x="170" y="100">C</text>
+    <text x="240" y="100">C</text>
+    <text x="310" y="100">C</text>
+    <text x="380" y="100">C</text>
+    <text x="450" y="100">C</text>
+    <text x="520" y="100">C</text>
+  </g>
+
+  <text class="detail" x="585" y="100">···</text>
+  <text class="formula" x="655" y="100">CH₃</text>
+
+  <!-- Horizontal bonds -->
+
+  <g class="bond">
+    <line x1="90"  y1="92" x2="160" y2="92" />
+    <line x1="190" y1="92" x2="230" y2="92" />
+    <line x1="260" y1="92" x2="300" y2="92" />
+    <line x1="330" y1="92" x2="370" y2="92" />
+    <line x1="400" y1="92" x2="440" y2="92" />
+    <line x1="470" y1="92" x2="510" y2="92" />
+    <line x1="540" y1="92" x2="575" y2="92" />
+    <line x1="620" y1="92" x2="645" y2="92" />
+  </g>
+
+  <!-- Top vertical bonds -->
+
+  <g class="bond">
+    <line x1="178" y1="48" x2="178" y2="72" />
+    <line x1="248" y1="48" x2="248" y2="72" />
+    <line x1="318" y1="48" x2="318" y2="72" />
+    <line x1="388" y1="48" x2="388" y2="72" />
+    <line x1="458" y1="48" x2="458" y2="72" />
+    <line x1="528" y1="48" x2="528" y2="72" />
+  </g>
+
+  <!-- Bottom vertical bonds -->
+
+  <g class="bond">
+    <line x1="178" y1="108" x2="178" y2="130" />
+    <line x1="248" y1="108" x2="248" y2="130" />
+    <line x1="318" y1="108" x2="318" y2="130" />
+    <line x1="388" y1="108" x2="388" y2="130" />
+    <line x1="458" y1="108" x2="458" y2="130" />
+    <line x1="528" y1="108" x2="528" y2="130" />
+  </g>
+
+  <!-- Bottom hydrogens -->
+
+  <g class="hydrogen">
+    <text x="175" y="155">H</text>
+    <text x="245" y="155">H</text>
+    <text x="315" y="155">H</text>
+    <text x="385" y="155">H</text>
+    <text x="455" y="155">H</text>
+    <text x="525" y="155">H</text>
+  </g>
+
+  <!-- Representative alkane formula -->
+
+  <text x="270" y="192">
+    <tspan class="formula">CH₃─(CH₂)</tspan>
+    <tspan class="accent">n</tspan>
+    <tspan class="formula">─CH₃</tspan>
+  </text>
+</svg>
